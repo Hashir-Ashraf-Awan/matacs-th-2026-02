@@ -28,4 +28,6 @@ This needs only Python 3. It scores the saved extracted facts with the admin cri
 
 ## How I used AI tools
 
-[FILL IN: 2–3 sentences in your own words on how you used AI tools (for example Claude Code to draft the files), and at least one place where you disagreed with or corrected the AI's output, and why.]
+I used Claude Code (Anthropic) to draft the write-up, prompts, flow diagram, ranking and the scoring script, working from the assessment brief, and I reviewed the output before submitting. The design choices to check and own are: AI only extracts facts, code does all scoring, and people review flagged and ineligible proposals.
+
+**Where the AI's output was corrected:** the first draft of the write-up was over the 1,000-word limit and quoted short phrases from the sample proposals, which the brief says not to copy; it was cut to about 950 words and the phrases were reworded. The first draft of the flow diagram also had a label overlapping a box, which was fixed. On the design itself, the AI's first scoring pass was checked by hand against the script output (A 96.8, E 86.2, C 80.9, D 72.5) before the ranking was written.
