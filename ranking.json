@@ -1,0 +1,7 @@
+[
+  { "proposal": "A", "rank": 1, "status": "ranked", "score": 96.8, "reason": "Passes both mandatory checks and is strongest on experience (14 installs), timeline (12 weeks) and team, with a competitive price." },
+  { "proposal": "E", "rank": 2, "status": "ranked", "score": 86.2, "reason": "Passes both mandatory checks with the best warranty and a full team plan, but has fewer relevant installs (8) than A." },
+  { "proposal": "C", "rank": null, "status": "flagged", "score": 80.9, "reason": "Passes mandatory checks and would sit 3rd on merit, but contains text trying to instruct the reviewer (ignored) and its experience count may include installs older than 5 years; needs human review." },
+  { "proposal": "D", "rank": null, "status": "flagged", "score": 72.5, "reason": "Passes mandatory checks and has the lowest price, but gives no completion time so timeline is scored 0 provisionally; ask the bidder for a schedule, then re-score." },
+  { "proposal": "B", "rank": null, "status": "ineligible", "score": null, "reason": "Fails the mandatory licence check: electrical work is subcontracted and the licensed contractor is not confirmed, so the cheapest and fastest bid is not scored." }
+]

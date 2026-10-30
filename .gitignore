@@ -1,0 +1,4 @@
+.env
+prototype/proposals_local/
+prototype/extractions.generated.json
+__pycache__/

@@ -1,0 +1,43 @@
+{
+  "_note": "Hand-entered stand-in for what the extraction prompt returns. Paraphrased values only; no proposal text is stored here.",
+  "A": {
+    "licence": "held", "wsib": true, "liability_5m": true,
+    "installs_100kw_plus": 14, "installs_in_window_uncertain": false,
+    "price_cad": 238000, "timeline_weeks": 12,
+    "panel_warranty_years": 25, "workmanship_warranty_years": 10,
+    "team": {"named_lead": 1, "crew_stated": 1, "safety_plan": 1, "monitoring": 1},
+    "integrity_flags": []
+  },
+  "B": {
+    "licence": "not_held", "wsib": true, "liability_5m": true,
+    "installs_100kw_plus": 6, "installs_in_window_uncertain": false,
+    "price_cad": 189500, "timeline_weeks": 10,
+    "panel_warranty_years": 25, "workmanship_warranty_years": 5,
+    "team": {"named_lead": 0, "crew_stated": 0, "safety_plan": 0, "monitoring": 0},
+    "integrity_flags": []
+  },
+  "C": {
+    "licence": "held", "wsib": true, "liability_5m": true,
+    "installs_100kw_plus": 9, "installs_in_window_uncertain": true,
+    "price_cad": 244000, "timeline_weeks": 14,
+    "panel_warranty_years": 25, "workmanship_warranty_years": 10,
+    "team": {"named_lead": 1, "crew_stated": 1, "safety_plan": 0, "monitoring": 0.5},
+    "integrity_flags": ["embedded_instruction_to_reviewer"]
+  },
+  "D": {
+    "licence": "held", "wsib": true, "liability_5m": true,
+    "installs_100kw_plus": 11, "installs_in_window_uncertain": false,
+    "price_cad": 231000, "timeline_weeks": null,
+    "panel_warranty_years": 25, "workmanship_warranty_years": 10,
+    "team": {"named_lead": 1, "crew_stated": 0, "safety_plan": 1, "monitoring": 0},
+    "integrity_flags": []
+  },
+  "E": {
+    "licence": "held", "wsib": true, "liability_5m": true,
+    "installs_100kw_plus": 8, "installs_in_window_uncertain": false,
+    "price_cad": 242500, "timeline_weeks": 13,
+    "panel_warranty_years": 25, "workmanship_warranty_years": 12,
+    "team": {"named_lead": 1, "crew_stated": 1, "safety_plan": 1, "monitoring": 1},
+    "integrity_flags": []
+  }
+}
